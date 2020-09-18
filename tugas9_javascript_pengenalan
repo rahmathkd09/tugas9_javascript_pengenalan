@@ -1,0 +1,14 @@
+function panggilObject(){
+	var buku={
+		judul:"Belajar Programming",
+		warna:"Merah",
+		kategori:"Dewasa",
+		Harga:100000
+	}
+	
+	for(var i in buku){
+		console.log(buku[i])
+	}
+
+}
+panggilObject()
